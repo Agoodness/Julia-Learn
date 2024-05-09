@@ -52,4 +52,78 @@ c === e
 
 c ≡ e # \equiv TAB
 a ≤ b # \leg TAB 
-a ≥ b # \geq TAB 
+a ≥ b # \geq TAB
+
+c = 11.7 
+a ≥ b ≥ c
+
+3 ≥ 3 < 9 ≠ 17 ≥ 14
+
+0.4 + 0.2 
+0.6 == 0.4 + 0.2
+isequal(0.6, 0.4+0.2)
+
+# To check floating point additions, use this instead of strick equality sign 
+isapprox(0.6, 0.4 + 0.2)
+0.6 ≈ 0.4 + 0.2 # \approx
+
+# Boolean operation
+
+a = true; b = false; 
+!a 
+!b 
+
+a || b
+b || b
+
+x = 109; y = 56;
+x & y
+x | y
+xor(x, y)
+
+~x 
+
+using Bits
+bits(5)
+~5
+bits(-6)
+
+bitstring(5)
+bitstring(-6)
+
+x = 7 
+x = x + 5
+ 
+x += 5 # x = x + 5
+x *=4
+x /=17
+
+x ^=3
+
+# Logrithm functions   
+log(ℯ^2)
+log(10, 10_000)
+
+exp(3) 
+ℯ^3
+
+round(3.78) # Nearest integerb
+floor(3.78)
+ceil(3.78)
+
+abs(-3) # Absolute value 
+sign(-4)
+sign(2)
+
+# All these are done in radian 
+sin(π/6)
+cos(π/4)
+tan(π/4)
+
+# To use degree 
+sind(30)
+cosd(45)
+tand(30)
+
+rand(4)
+rand()
