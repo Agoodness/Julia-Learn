@@ -1,3 +1,8 @@
+
+#=  This code takes in Integer inputs and print the number of integers user enters
+then calculate the sum of numbers and the average of the numbers.
+=#
+
 input = nothing
 arr = []
 
