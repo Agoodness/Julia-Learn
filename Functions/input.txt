@@ -1,0 +1,3 @@
+Programming here with Julia. 
+higher order functions. 
+map, reduce the filter
