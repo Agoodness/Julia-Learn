@@ -9,7 +9,7 @@ mutable struct Bank
     totalDeposit::Float64
     equity::Float64
 
-    Bank(name) = new(name, 1000.0, 0.0, 0.0, 1000.0)
+    Bank(name) = new(name, 5000.0, 10.0, 10.0, 1000.0)
 end
 
 function defaultBank(bank::Bank)
